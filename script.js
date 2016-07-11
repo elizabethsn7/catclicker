@@ -1,11 +1,12 @@
 $(document).ready(function() {
 
-var $catPic = $('.catPic');
-	
-$catPic.click(function(e) {
-  //the element has been clicked... do stuff here
-  
-});
+	var count = 0
 
-	console.log("this works");
+	$('#catPic').click(function() {
+		count++;
+		$('#clickCounter').html('You clicked ' + count +  ' times');
+		console.log("this is working");
+	})
+
 })
+

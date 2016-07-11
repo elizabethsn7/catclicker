@@ -1,5 +1,5 @@
 html {
-	
+	width: 100%;
 	height: 100%;
 	background-color: #394264;
 }
@@ -11,7 +11,7 @@ body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background-color: #1F253D;
 	text-align: center;
-
+	color: #ffffff;
 }
 
 h2 {
@@ -31,21 +31,3 @@ ul
 list-style-type: none;
 }
 
-li {
-	color: #ffffff;
-}
-
-#centerLi {
-	margin:0 auto;
-}
-
-p {
-	color: #ffffff;
-}
-
-.catPic {
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #7fffd4;
-	border-width: 5px;
-}
