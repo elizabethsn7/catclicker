@@ -1,16 +1,23 @@
 $(document).ready(function() {
 
-	var meanie = 0
-	var nicey = 0
+	var catName1 = 'Meany';
+	var catName2 = 'Nicey';
+	var counter1 = 0;
+	var counter2 = 0;
+
+	$('#cat-name1').html(catName1);
+	$('#cat-name2').html(catName2);
+
 
 	$('#meanPic').click(function() {
-		meanie++;
-		$('#meanCounter').html('You clicked ' + meanie +  ' times');
+		counter1++;
+		$('#meanCounter').html('You clicked ' + catName1 + ' ' + counter1 +  ' times');
 		console.log("# of clicks");
 	})
+
 	$('#cutePic').click(function() {
-		nicey++;
-		$('#cuteCounter').html('You clicked ' + nicey +  ' times');
+		counter2++;
+		$('#cuteCounter').html('You clicked ' + catName2 + ' ' + counter2 +  ' times');
 		console.log("# of clicks");
 	})
 })
