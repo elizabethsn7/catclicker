@@ -1,0 +1,35 @@
+
+var cats = {
+	'catNames': [{
+		'sleepy': 'images/sleepyCat.png',
+		 'happy': 'images/happyCat.png',
+		 'grumpy':'images/grumpyCat.png',
+		  'dopey': 'images/dopeyCat.png', 
+		  'doc': 'images/sleepyCat.png',
+		}]
+
+};
+////I know this is nothing, just some psudo code to help me along. This is from the example
+function displayCats() {
+	for (var cats in cats.)
+}
+for (var i = 0; i < cats.length; i++) {
+	var cat = num[i]
+	var elem = document.createElement('div');
+
+	elem.addEventListener('click', (function(catCopy) {
+		return function () {
+			alert(catCopy);
+		};
+	})(cat));
+	document.body.appendChild(elem);
+};
+
+
+
+
+
+
+
+
+

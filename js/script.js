@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
 	var catName1 = 'Meany';
@@ -20,5 +21,8 @@ $(document).ready(function() {
 		$('#cuteCounter').html('You clicked ' + catName2 + ' ' + counter2 +  ' times');
 		console.log("# of clicks");
 	})
-})
+});
+
+
+
 
