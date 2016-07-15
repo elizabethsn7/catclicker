@@ -14,11 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900,900italic?family=tangerine" rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/> 
 		
-		<!-- JavaScript -->
-		<script src="js/libs/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
+
 
 		<title>Cat Clicker</title>
 
@@ -35,45 +31,179 @@
 			</div>	
 <!-- End Banner -->
 			<ul>
-				<li>1.Click on the cat 2.That's it, duh</li>
-			</ul>
-
-			<ul class = "dwarfNames">
-				<li id= "sleepy"><a href="#">Sleepy</a></li>
-				<li id= "happy"><a href="#">Happy</a></li>					<li id= "grumpy"><a href="#">Grumpy</a></li>
-				<li id= "dopey"><a href="#">Dopey</a></li>
-				<li id= "doc"><a href="#">Doc</a></li>
+				<li>1.Click on the cat  2.That's it, duh</li>
 			</ul>
 
 
-			<div class = "row">
-				<div class="col-md-1">
-        			<img class="img-responsive" src="images/sleepyCat.png" alt="Sleepy Cat">
-        		</div>
+<!-- SLEEPYCAT  -->
+	    <div class="row text-center">
+	      <div class="col-md-4">
+	        <p>
+	          <h3>
+	          <a>Sleepy Cat</a>
+	          </h3>
+	        </p>
+	      </div>
 
-				<div class="col-md-1">
-        			<img class="img-responsive" src="images/happyCat.png" alt="Happy Cat">
-        		</div>
+	<!-- HAPPYCAT -->
+	      <div class="col-md-4">
+	        <p>
+	          <h3>
+	            <a>Happy</a>
+	          <h3>
+	        </p>
+	      </div>
 
-				<div class="col-md-1">
-        			<img class="img-responsive" src="images/grumpyCat.png" alt="Grumpy Cat">
-        		</div>
+	<!-- GRUMPY-->
+	      <div class="col-md-4">
+	        <p>
+	          <h3>
+	            <a>Grumpy</a>
+	          </h3>  
+	        </p>
+	      </div>
+	    </div>
 
-				<div class="col-md-1">
-        			<img class="img-responsive" src="images/dopeyCat.png" alt="Dopey Cat">
-        		</div>
+    <!-- sleepy Modal -->
+    <div class="modal fade" id="sleepy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/sleepyCat.png" alt="Sleepy Cat"> Sleepy Cats Love To Sleep.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Click</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End Modal -->
 
-				<div class="col-md-1">
-        			<img class="img-responsive" src="images/docCat.png" alt="Doc Cat">
-        		</div>
+    <!-- happy Modal -->
+    <div class="modal fade" id="happy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <img class="img-responsive" src="images/happyCat.png" alt="hydraulic filters"> Happy Cats Are Always Happy To See You!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End Modal -->
 
+    <!-- Grumpy Modal -->
+    <div class="modal fade" id="grumpy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <img class="img-responsive" src="images/grumpyCat.png" alt="hydraulic filters"> Click it or the mouse gets it!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End Modal -->
 
-        	</div>
+<!-- DopeyCAT  -->
+	    <div class="row text-center">
+	      <div class="col-md-4">
+	        <p>
+	          <h3>
+	          <a>Dopey Cat</a>
+	          </h3>
+	        </p>
+	      </div>
 
-<!-- End Container -->
-		
+	<!-- DOC -->
+	      <div class="col-md-4">
+	        <p>
+	          <h3>
+	            <a>Doc</a>
+	          <h3>
+	        </p>
+	      </div>
+
+	<!-- BASHFUL-->
+	      <div class="col-md-4">
+	        <p>
+	          <h3>
+	            <a>Bashful</a>
+	          </h3>  
+	        </p>
+	      </div>
+	    </div>
+
+    <!-- Dopey Modal -->
+    <div class="modal fade" id="dopey" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dopeyCat.png" alt="Sleepy Cat"> Sleepy Cats Love To Sleep.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Click</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End Modal -->
+
+    <!-- DOC Modal -->
+    <div class="modal fade" id="doc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <img class="img-responsive" src="images/docCat.png" alt="Doctor Cat"> Happy Cats Are Always Happy To See You!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End Modal -->
+
+    <!-- Bashful Modal -->
+    <div class="modal fade" id="bashful" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <img class="img-responsive" src="images/bashfulCat.png" alt="bashful cat"> Click it or the mouse gets it!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End Modal -->
+
+<!-- End Container -->		
 		</div>
-		</header>
-			
 
-		</body>
+		</header>
+<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
