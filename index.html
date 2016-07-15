@@ -25,49 +25,53 @@
 	</head>
 	<body>
 		<header>
-			<div class="container-fluid">
+
+<!-- Boostrap Layout Begins -->
+			<div class="container">
+<!-- Banner -->
 			<div class="jumbotron text-center">
 				<h1>Wanna Play Cat Clicker?</h1>
 				<p>Cat Clicker is an assignment for my Udacity Nanodegree.</p>
 			</div>	
-				<ul>
-					<li>1.Click on the cat</li>
-					<li>2.That's it, duh</li>
-				</ul>
-				<ul class = "dwarfNames">
-					<li>Sleepy</li>
-					<li>Happy</li>
-					<li>Grumpy</li>
-					<li>Dopey</li>
-					<li>Doc</li>
-				</ul>
+<!-- End Banner -->
+			<ul>
+				<li>1.Click on the cat 2.That's it, duh</li>
+			</ul>
 
-
+			<ul class = "dwarfNames">
+				<li id= "sleepy"><a href="#">Sleepy</a></li>
+				<li id= "happy"><a href="#">Happy</a></li>					<li id= "grumpy"><a href="#">Grumpy</a></li>
+				<li id= "dopey"><a href="#">Dopey</a></li>
+				<li id= "doc"><a href="#">Doc</a></li>
+			</ul>
 
 
 			<div class = "row">
-				<div class="col-md-6">
-					<h1 id= "cat-name1"></h1>
-				</div>
-				<div class="col-md-6">
-					<h1 id= "cat-name2"></h1>
-				</div>
+				<div class="col-md-1">
+        			<img class="img-responsive" src="images/sleepyCat.png" alt="Sleepy Cat">
+        		</div>
+
+				<div class="col-md-1">
+        			<img class="img-responsive" src="images/happyCat.png" alt="Happy Cat">
+        		</div>
+
+				<div class="col-md-1">
+        			<img class="img-responsive" src="images/grumpyCat.png" alt="Grumpy Cat">
+        		</div>
+
+				<div class="col-md-1">
+        			<img class="img-responsive" src="images/dopeyCat.png" alt="Dopey Cat">
+        		</div>
+
+				<div class="col-md-1">
+        			<img class="img-responsive" src="images/docCat.png" alt="Doc Cat">
+        		</div>
+
+
         	</div>
 
-			<div class= "row">
-			<div class= "col-md-6">
-				<img id="meanPic" src="images/grumpyCat.png" alt="cat picture"></img>
-				
-				<h2>Click the cat or the mouse gets it!</h2>
-				<div id= "meanCounter"></div>
-			</div>
-			<div class= "col-md-6">
-				<img id="cutePic" src="images/cuteCat.png" alt="cat picture"></img>
-				
-				<h2>Click the cat or he turns angry!</h2>
-				<div id= "cuteCounter"></div>
-			</div>
-			</div>
+<!-- End Container -->
+		
 		</div>
 		</header>
 			
